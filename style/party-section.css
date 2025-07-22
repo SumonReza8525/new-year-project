@@ -1,0 +1,33 @@
+.party-section {
+  max-width: 1320px;
+  background-image: url("../images/Vectorrr.png");
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.party {
+  color: white;
+  max-width: 500px;
+  margin-left: 150px;
+}
+.party h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.party p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.join-btn {
+  background-color: rgba(204, 189, 189, 0.044);
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
