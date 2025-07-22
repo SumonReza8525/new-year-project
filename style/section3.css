@@ -1,6 +1,10 @@
 .section3 {
   width: 1320px;
-  background: linear-gradient(to bottom, hsla(0, 100%, 50%, 0.109), #ffffff);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.128),
+    rgba(248, 246, 246, 0.568)
+  );
   margin: 30px auto;
   display: flex;
   justify-content: center;
@@ -9,6 +13,8 @@
   align-items: center;
   padding: 50px 0;
   border-radius: 10px;
+
+  margin-bottom: 100px;
 }
 
 .section3 p {
