@@ -39,8 +39,17 @@ footer a {
     rgba(0, 0, 0, 0.087)
   );
 }
+.div2 img {
+  width: 40px;
+}
+.div2 img:hover {
+  border: 1px solid rgb(230, 221, 221);
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 4px rgb(229, 220, 220);
+}
 footer .div3 {
   display: flex;
   justify-content: space-between;
-  margin: 0 200px 0 200px;
+  margin: 0 300px 0 200px;
 }
