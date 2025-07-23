@@ -4,21 +4,20 @@
   box-sizing: border-box;
 }
 header {
-  max-width: 1320px;
+  max-width: 1200px;
+  height: 550px;
+  margin: 50px auto;
   background-image: url("../images/Banner\ Image.png");
-
-  height: 600px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .hero {
-  color: #eaf2ed;
+  color: #f5ed11;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.57), #ffffff18);
-  padding: 170px 360px;
   border-radius: 10px;
+  padding-top: 150px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 .hero h3 {
   text-align: center;
@@ -28,6 +27,5 @@ header {
 .hero h1 {
   font-size: 70px;
   font-weight: 900;
-  max-width: 600px;
   text-align: center;
 }

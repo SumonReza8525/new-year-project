@@ -1,5 +1,5 @@
 .section4 {
-  max-width: 1320px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -11,6 +11,7 @@
 }
 .section4-left {
   flex: 1;
+  padding-left: 10px;
 }
 .section4-left .title {
   font-size: 25px;
@@ -32,7 +33,7 @@
   flex: 1;
   border: 13px solid #ff0000;
   display: flex;
-  padding: 25px 15px;
+  padding: 20px 15px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
